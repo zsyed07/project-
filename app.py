@@ -9,6 +9,6 @@ def home():
 
 if __name__ == "__main__":
     # Get the port number from the environment (set by the hosting platform)
-    port = int(os.environ.get("PORT", 5000))
+    port = int(os.environ.get("PORT", 10000))
     # Ensure the app listens on all available network interfaces
     app.run(host="0.0.0.0", port=port)
