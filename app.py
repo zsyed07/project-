@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello, World! The app is live!"
+    return "Hello, FRIENDS! The app is live!"
 
 if __name__ == "__main__":
     # Get the port number from the environment (set by the hosting platform)
