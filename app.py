@@ -3,7 +3,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-@app.route("/")
+@app.route('/word',methods=['GET'])
 def home():
     return "Hello, FRIENDS! The app is live!"
 
